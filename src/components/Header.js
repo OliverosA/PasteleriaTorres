@@ -1,20 +1,20 @@
-import { Box } from "@mui/material";
+import { Box, Container, Grid } from "@mui/material";
 const Header = ({ logo }) => {
   return (
-    <Box
-      sx={{
-        mt: 2,
-        mx: 5,
-        pt: 10,
-        height: "20vh",
-        bgcolor: "#FFDDDD",
-        backgroundImage: `url(${logo})`,
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
-        backgroundSize: "contain",
-        borderRadius: 4,
-      }}
-    />
+    <Container maxWidth='sm'>
+      <Grid display={"flex"} justifyContent={"center"} mb={3}>
+        <Box
+          sx={{
+            display: "flex",
+            margin: "auto",
+            height: "35vh",
+          }}
+        >
+          {" "}
+          <img src={logo} />
+        </Box>
+      </Grid>
+    </Container>
   );
 };
 

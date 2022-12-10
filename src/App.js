@@ -18,18 +18,19 @@ function App() {
   }, []);
 
   return (
-    <Container maxWidth='xl' className='hero-image'>
-      <Container maxWidth='lg' className='elementsContainer'>
-        <Header logo={"assets/logo.png"} />
+    <>
+      <Header logo={"assets/logo.png"} />
+      <Container maxWidth='sm' className='elementsContainer'>
         {data?.map((value) => (
           <CakeCard
-            key={value.id}
+            cakeId={value.id}
             cakeName={value.name}
             cakeImage={value.image}
-          ></CakeCard>
+            background={"assets/fondo.jpg"}
+          />
         ))}
       </Container>
-    </Container>
+    </>
   );
 }
 
