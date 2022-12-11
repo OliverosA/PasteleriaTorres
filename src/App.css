@@ -1,42 +1,15 @@
 .hero-image {
   position: relative;
   background-image: url("../public/assets/fondo2.jpg");
-  background-color: #d2691e;
   min-height: 100vh;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
 }
 
-img {
+.logoImage {
   max-height: 100%;
   width: 100%;
   border-radius: 4%;
-}
-
-.elementsContainer {
-  width: 100%;
-  background-color: blue;
-}
-
-.cardTitle {
-  margin-right: 30rem;
-  font-family: fantasy;
-}
-
-.subTitle1 {
-  font-size: x-large;
-  font-family: fantasy;
-  height: 10%;
-  width: 30%;
-  margin-left: 25rem;
-}
-
-.subTitle2 {
-  font-size: x-large;
-  font-family: fantasy;
-  height: 10%;
-  width: 30%;
-  margin-left: 40rem;
 }

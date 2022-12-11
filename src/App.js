@@ -20,13 +20,15 @@ function App() {
   return (
     <>
       <Header logo={"assets/logo.png"} />
-      <Container maxWidth='sm' className='elementsContainer'>
+      <Container maxWidth='md'>
         {data?.map((value) => (
           <CakeCard
             cakeId={value.id}
             cakeName={value.name}
             cakeImage={value.image}
             background={"assets/fondo.jpg"}
+            fillings={value.fillings}
+            toppings={value.toppings}
           />
         ))}
       </Container>

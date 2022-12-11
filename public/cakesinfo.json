@@ -2,16 +2,16 @@
   "cakes": [
     {
       "id": 1,
-      "name": "Pastel De Vainilla",
-      "rellenos": ["Cajeta", "Fresa", "Chocolate", "Crema Pastelera"],
-      "coberturas": ["Merengue", "Buttercream", "Fondant"],
+      "name": "Vainilla",
+      "fillings": ["Cajeta", "Fresa", "Chocolate", "Crema Pastelera"],
+      "toppings": ["Merengue", "Buttercream", "Fondant"],
       "image": "assets/vainilla.jpeg"
     },
     {
       "id": 2,
-      "name": "Pastel De Chocolate",
-      "rellenos": ["Cajeta", "Fresa", "Ganache De Chocolate", "Nutella"],
-      "coberturas": [
+      "name": "Chocolate",
+      "fillings": ["Cajeta", "Fresa", "Ganache De Chocolate", "Nutella"],
+      "toppings": [
         "Merengue",
         "Buttercream",
         "Fondant",
@@ -21,41 +21,37 @@
     },
     {
       "id": 3,
-      "name": "Pastel De Zanahoria",
-      "rellenos": ["Cajeta Con Almendra", "Queso Crema"],
-      "coberturas": ["Queso Crema", "Buttercream", "Fondant"],
+      "name": "Zanahoria",
+      "fillings": ["Cajeta Con Almendra", "Queso Crema"],
+      "toppings": ["Queso Crema", "Buttercream", "Fondant"],
       "image": "assets/zanahoria.jpeg"
     },
     {
       "id": 4,
-      "name": "Pastel De Naranja",
-      "rellenos": ["Cajeta", "Frosting De Naranja", "Buttercream De Naranja"],
-      "coberturas": [
-        "Frosting De Naranja",
-        "Buttercream De Naranja",
-        "Fondant"
-      ],
+      "name": "Naranja",
+      "fillings": ["Cajeta", "Frosting De Naranja", "Buttercream De Naranja"],
+      "toppings": ["Frosting De Naranja", "Buttercream De Naranja", "Fondant"],
       "image": "assets/naranja.jpeg"
     },
     {
       "id": 5,
-      "name": "Pastel Frio Tres Leches",
-      "rellenos": ["De Frutas"],
-      "coberturas": ["Chantilly", "Chocolate", "Topping"],
+      "name": "Frio Tres Leches",
+      "fillings": ["De Frutas"],
+      "toppings": ["Chantilly", "Chocolate", "Topping"],
       "image": "assets/tresleches.jpeg"
     },
     {
       "id": 6,
-      "name": "Pastel Frio",
-      "rellenos": ["De Frutas", "Chocolate", "Vainilla"],
-      "coberturas": ["Chantilly", "Chocolate", "Topping De Chocolate"],
+      "name": "Frio",
+      "fillings": ["De Frutas", "Chocolate", "Vainilla"],
+      "toppings": ["Chantilly", "Chocolate", "Topping De Chocolate"],
       "image": "assets/frio.jpeg"
     },
     {
       "id": 7,
-      "name": "Pastel Veteado",
-      "rellenos": ["Cajeta", "Chocolate", "Fresa", "Nutella"],
-      "coberturas": [
+      "name": "Veteado",
+      "fillings": ["Cajeta", "Chocolate", "Fresa", "Nutella"],
+      "toppings": [
         "Merengue",
         "Buttercream",
         "Fondant",

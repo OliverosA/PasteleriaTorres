@@ -11,7 +11,7 @@ const Header = ({ logo }) => {
           }}
         >
           {" "}
-          <img src={logo} />
+          <img src={logo} className='logoImage' alt={"cakeImage"} />
         </Box>
       </Grid>
     </Container>
