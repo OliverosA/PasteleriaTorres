@@ -36,7 +36,6 @@ function App() {
         ))}
       </Container>
       <MyImageList />
-      <Footer />
     </>
   );
 }
