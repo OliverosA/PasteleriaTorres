@@ -1,0 +1,72 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "src": "assets/othercakes/cake1.jpeg"
+    },
+    {
+      "id": 2,
+      "src": "assets/othercakes/cake2.jpeg"
+    },
+    {
+      "id": 3,
+      "src": "assets/othercakes/cake3.jpeg"
+    },
+    {
+      "id": 4,
+      "src": "assets/othercakes/cake4.jpeg"
+    },
+    {
+      "id": 5,
+      "src": "assets/othercakes/cake5.jpeg"
+    },
+    {
+      "id": 6,
+      "src": "assets/othercakes/cake6.jpeg"
+    },
+    {
+      "id": 7,
+      "src": "assets/othercakes/cake7.jpeg"
+    },
+    {
+      "id": 8,
+      "src": "assets/othercakes/cake8.jpeg"
+    },
+    {
+      "id": 9,
+      "src": "assets/othercakes/cake9.jpeg"
+    },
+    {
+      "id": 10,
+      "src": "assets/othercakes/cake10.jpeg"
+    },
+    {
+      "id": 11,
+      "src": "assets/othercakes/cake11.jpeg"
+    },
+    {
+      "id": 12,
+      "src": "assets/othercakes/cake12.jpeg"
+    },
+    {
+      "id": 13,
+      "src": "assets/othercakes/cake13.jpeg"
+    },
+    {
+      "id": 14,
+      "src": "assets/othercakes/cake14.jpeg"
+    },
+    {
+      "id": 15,
+      "src": "assets/othercakes/cake15.jpeg"
+    },
+    {
+      "id": 16,
+      "src": "assets/othercakes/cake16.jpeg"
+    },
+    {
+      "id": 17,
+      "src": "assets/othercakes/cake17.jpeg"
+    }
+  ]
+}

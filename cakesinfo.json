@@ -1,0 +1,63 @@
+{
+  "cakes": [
+    {
+      "id": 1,
+      "name": "Vainilla",
+      "fillings": ["Cajeta", "Fresa", "Chocolate", "Crema Pastelera"],
+      "toppings": ["Merengue", "Buttercream", "Fondant"],
+      "image": "assets/vainilla.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Chocolate",
+      "fillings": ["Cajeta", "Fresa", "Ganache De Chocolate", "Nutella"],
+      "toppings": [
+        "Merengue",
+        "Buttercream",
+        "Fondant",
+        "Ganache De Chocolate"
+      ],
+      "image": "assets/chocolate.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Zanahoria",
+      "fillings": ["Cajeta Con Almendra", "Queso Crema"],
+      "toppings": ["Queso Crema", "Buttercream", "Fondant"],
+      "image": "assets/zanahoria.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Naranja",
+      "fillings": ["Cajeta", "Frosting De Naranja", "Buttercream De Naranja"],
+      "toppings": ["Frosting De Naranja", "Buttercream De Naranja", "Fondant"],
+      "image": "assets/naranja.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Frio Tres Leches",
+      "fillings": ["De Frutas"],
+      "toppings": ["Chantilly", "Chocolate", "Topping"],
+      "image": "assets/tresleches.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Frio",
+      "fillings": ["De Frutas", "Chocolate", "Vainilla"],
+      "toppings": ["Chantilly", "Chocolate", "Topping De Chocolate"],
+      "image": "assets/frio.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Veteado",
+      "fillings": ["Cajeta", "Chocolate", "Fresa", "Nutella"],
+      "toppings": [
+        "Merengue",
+        "Buttercream",
+        "Fondant",
+        "Ganache De Chocolate"
+      ],
+      "image": "assets/veteado.jpeg"
+    }
+  ]
+}
