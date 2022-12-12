@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/PasteleriaTorres/static/css/main.88ef2323.css",
-    "main.js": "/PasteleriaTorres/static/js/main.8fcea83b.js",
-    "static/media/fondo2.jpg": "/PasteleriaTorres/static/media/fondo2.49a45054d53f3f5fa36e.jpg",
-    "index.html": "/PasteleriaTorres/index.html",
-    "main.88ef2323.css.map": "/PasteleriaTorres/static/css/main.88ef2323.css.map",
-    "main.8fcea83b.js.map": "/PasteleriaTorres/static/js/main.8fcea83b.js.map"
+    "main.css": "/static/css/main.d21aa123.css",
+    "main.js": "/static/js/main.8fcea83b.js",
+    "static/media/fondo2.jpg": "/static/media/fondo2.49a45054d53f3f5fa36e.jpg",
+    "index.html": "/index.html",
+    "main.d21aa123.css.map": "/static/css/main.d21aa123.css.map",
+    "main.8fcea83b.js.map": "/static/js/main.8fcea83b.js.map"
   },
   "entrypoints": [
-    "static/css/main.88ef2323.css",
+    "static/css/main.d21aa123.css",
     "static/js/main.8fcea83b.js"
   ]
 }
