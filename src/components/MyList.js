@@ -21,13 +21,9 @@ const MyList = ({ headerList, list }) => {
         </ListSubheader>
       }
     >
-      <ul>
-        {list.map((item, index) => (
-          <ListItem key={index}>
-            <li>{item}</li>
-          </ListItem>
-        ))}
-      </ul>
+      {list.map((item, index) => (
+        <ListItem key={index}>{item}</ListItem>
+      ))}
     </List>
   );
 };

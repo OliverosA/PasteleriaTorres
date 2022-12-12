@@ -1,8 +1,10 @@
-import { Container } from "@mui/material";
 import { useEffect, useState } from "react";
+import { Container } from "@mui/material";
 import "./App.css";
 import Header from "./components/Header";
 import CakeCard from "./components/CakeCard";
+import MyImageList from "./components/MyImageList";
+import Footer from "./components/Footer";
 
 function App() {
   const [data, setData] = useState([]);
@@ -21,8 +23,9 @@ function App() {
     <>
       <Header logo={"assets/logo.png"} />
       <Container maxWidth='md'>
-        {data?.map((value) => (
+        {data?.map((value, index) => (
           <CakeCard
+            key={value.id}
             cakeId={value.id}
             cakeName={value.name}
             cakeImage={value.image}
@@ -32,6 +35,8 @@ function App() {
           />
         ))}
       </Container>
+      <MyImageList />
+      <Footer />
     </>
   );
 }
