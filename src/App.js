@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   return (
-    <div className='hero-image'>
+    <div>
       <CssBaseline />
       <Header logo={"assets/logo.png"} />
       <Container maxWidth='md'>

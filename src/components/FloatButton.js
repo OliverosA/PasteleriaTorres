@@ -1,9 +1,9 @@
 import { Fab, Grow } from "@mui/material";
 import { WhatsApp } from "@mui/icons-material";
 const FloatButton = () => {
-  const message = "¡Hola 🖐! quisiera cotizar en un pastel 🎂🍰🤩";
   const handleClick = (e) => {
     e.preventDefault();
+    const message = "¡Hola 🖐! quisiera cotizar en un pastel 🎂🍰🤩";
     window.open(
       `https://web.whatsapp.com/send?phone=+50258000982&text=${message}&app_absent=0`
     );
