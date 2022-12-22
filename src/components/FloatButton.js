@@ -3,7 +3,7 @@ import { WhatsApp } from "@mui/icons-material";
 const FloatButton = () => {
   const handleClick = (e) => {
     e.preventDefault();
-    const message = "¡Hola 🖐! quisiera cotizar en un pastel 🎂🍰🤩";
+    const message = "¡Hola 🖐! quisiera cotizar un pastel 🎂🍰🤩";
     window.open(
       `whatsapp://send?text=${message}&phone=+50258000982&abid=+50258000982`
     );
