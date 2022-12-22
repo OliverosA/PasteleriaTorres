@@ -5,7 +5,7 @@ const FloatButton = () => {
     e.preventDefault();
     const message = "¡Hola 🖐! quisiera cotizar en un pastel 🎂🍰🤩";
     window.open(
-      `https://web.whatsapp.com/send?phone=+50258000982&text=${message}&app_absent=0`
+      `whatsapp://send?text=${message}&phone=+50258000982&abid=+50258000982`
     );
   };
   return (

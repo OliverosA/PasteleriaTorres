@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Container, CssBaseline } from "@mui/material";
+import { Container } from "@mui/material";
 import "./App.css";
 import Header from "./components/Header";
 import CakeCard from "./components/CakeCard";
