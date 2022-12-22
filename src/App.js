@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import { Container } from "@mui/material";
+import { Container, CssBaseline } from "@mui/material";
 import "./App.css";
 import Header from "./components/Header";
 import CakeCard from "./components/CakeCard";
 import MyImageList from "./components/MyImageList";
-import Footer from "./components/Footer";
+import FloatButton from "./components/FloatButton";
 
 function App() {
   const [data, setData] = useState([]);
@@ -20,10 +20,11 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div className='hero-image'>
+      <CssBaseline />
       <Header logo={"assets/logo.png"} />
       <Container maxWidth='md'>
-        {data?.map((value, index) => (
+        {data?.map((value) => (
           <CakeCard
             key={value.id}
             cakeId={value.id}
@@ -35,8 +36,9 @@ function App() {
           />
         ))}
       </Container>
+      <FloatButton />
       <MyImageList />
-    </>
+    </div>
   );
 }
 
