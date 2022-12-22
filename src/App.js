@@ -21,7 +21,6 @@ function App() {
 
   return (
     <div>
-      <CssBaseline />
       <Header logo={"assets/logo.png"} />
       <Container maxWidth='md'>
         {data?.map((value) => (
